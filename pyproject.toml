@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "resume-builder"
+version = "0.1.0"
+description = ""
+authors = ["Michael Bastos <bastosmichael@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-docx = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
